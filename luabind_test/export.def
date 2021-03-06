@@ -1,0 +1,9 @@
+; export.def
+LIBRARY ADD
+; MY_DLLMAIN 将成为生成的dll的名称
+DESCRIPTION  'test'
+EXPORTS
+    isquare  @ 1
+    alert    @ 2
+	greet    @ 3
+; 这个名称即为函数的实际导出名称 @1为函数的导出编号
