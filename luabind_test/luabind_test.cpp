@@ -70,7 +70,7 @@ int  alert(lua_State *L)
 	return 1;
 }
 
-extern "C" int isquare(lua_State *L) {              /* C中的函数名 */
+extern "C" int __declspec(dllexport) isquare(lua_State *L) {              /* C中的函数名 */
 	float rtrn = lua_tonumber(L, -1);      /* 从Lua虚拟机里取出一个变量，这个变量是number类型的 */
 	//printf("Top of square(), nbr=%f\n",rtrn);
 	lua_pushnumber(L, rtrn*rtrn);           /* 将返回值压回Lua虚拟机的栈中 */
