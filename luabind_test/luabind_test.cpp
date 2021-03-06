@@ -35,7 +35,7 @@
 //	lua_pushnumber(L, rtrn*rtrn);           /* 将返回值压回Lua虚拟机的栈中 */
 //	return 1;                              /* 这个返回值告诉lua虚拟机，我们往栈里放入了多少个返回值 */
 //}
-extern "C" void __declspec(dllexport) greet()
+void  greet()
 {
 	std::cout << "hello world!/n";
 }
@@ -63,15 +63,14 @@ extern "C" {
 	using namespace luabind;
 
 
-
-extern "C" int __declspec(dllexport) alert(lua_State *L)
+int  alert(lua_State *L)
 {
 	const char * desc = lua_tostring(L, -1);
 	//MessageBox(NULL, desc, "alert", MB_OK);
 	return 1;
 }
 
-extern "C" int __declspec(dllexport) isquare(lua_State *L) {              /* C中的函数名 */
+int isquare(lua_State *L) {              /* C中的函数名 */
 	float rtrn = lua_tonumber(L, -1);      /* 从Lua虚拟机里取出一个变量，这个变量是number类型的 */
 	//printf("Top of square(), nbr=%f\n",rtrn);
 	lua_pushnumber(L, rtrn*rtrn);           /* 将返回值压回Lua虚拟机的栈中 */
