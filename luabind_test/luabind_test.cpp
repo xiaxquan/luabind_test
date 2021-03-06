@@ -77,20 +77,20 @@ extern "C" int __declspec(dllexport) isquare(lua_State *L) {              /* C中
 	return 1;                              /* 这个返回值告诉lua虚拟机，我们往栈里放入了多少个返回值 */
 }
 
-extern "C" int __declspec(dllexport) luaopen_add(lua_State *L)
-{
-	open(L);
-	module(L)
-		[
-			def("greet", &greet),
-			def("alert", &alert)
-		];
-	//lua_register(
-	//	L,               /* Lua 状态机 */
-	//	"square",        /*Lua中的函数名 */
-	//	isquare          /*当前文件中的函数名 */
-	//);
-	//lua_register(L, "alert", alert);
-		//lua_register(L,"greet", greet);
-	return 0;
-}
+//extern "C" int __declspec(dllexport) luaopen_add(lua_State *L)
+//{
+//	open(L);
+//	module(L)
+//		[
+//			def("greet", &greet),
+//			def("alert", &alert)
+//		];
+//	//lua_register(
+//	//	L,               /* Lua 状态机 */
+//	//	"square",        /*Lua中的函数名 */
+//	//	isquare          /*当前文件中的函数名 */
+//	//);
+//	//lua_register(L, "alert", alert);
+//		//lua_register(L,"greet", greet);
+//	return 0;
+//}

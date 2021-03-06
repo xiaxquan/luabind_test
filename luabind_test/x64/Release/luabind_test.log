@@ -75,17 +75,16 @@ c:\program files\library\luabind\luabind\scope.hpp(95): warning C4251: “luabin
 d:\d\study\qt\202103\zlibtest\luabind_test\luabind_test\luabind_test.cpp(74): warning C4244: “初始化”: 从“lua_Number”转换到“float”，可能丢失数据
     正在创建库 D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\ADD.lib 和对象 D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\ADD.exp
   正在生成代码
-  3 of 657 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
-    1 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+  23 of 536 functions ( 4.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    25 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
 lua542static.lib(lapi.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lapi.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-lua542static.lib(lauxlib.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lauxlib.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-lua542static.lib(ldo.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(ldo.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(lvm.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lvm.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(ltable.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(ltable.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(lobject.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lobject.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(lstate.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lstate.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+lua542static.lib(ldo.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(ldo.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(lgc.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lgc.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(ldebug.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(ldebug.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(lfunc.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lfunc.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
@@ -94,10 +93,10 @@ lua542static.lib(lstring.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(�
 lua542static.lib(ldump.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(ldump.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(ltm.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(ltm.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(lmem.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lmem.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-lua542static.lib(lundump.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lundump.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-lua542static.lib(lparser.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lparser.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(lctype.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lctype.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(llex.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(llex.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+lua542static.lib(lundump.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lundump.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+lua542static.lib(lparser.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lparser.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(lopcodes.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lopcodes.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 lua542static.lib(lcode.obj) : warning LNK4099: 未找到 PDB“lua542.pdb”(使用“lua542static.lib(lcode.obj)”或在“D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\lua542.pdb”中寻找)；正在链接对象，如同没有调试信息一样
   luabind_test.vcxproj -> D:\D\study\Qt\202103\zlibTest\luabind_test\x64\Release\ADD.dll
